@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+.App {
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.todo-control {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
